@@ -14,9 +14,9 @@ def euro(x):
     return y
 
 # Create the list
-makes = ['ford', 'chevy', 'bmw', 'mercedes','jaguar','toyota']
-model = ['mustang', 'corvette', 'm4', 'gt','f-type','supra']
-hp = [500,350,425,550, 425, 450]
+makes = ['ford', 'chevy', 'bmw', 'mercedes', 'jaguar', 'toyota']
+model = ['mustang', 'corvette', 'm4', 'gt', 'f-type', 'supra']
+hp = [500, 350, 425, 550, 425, 450]
 country = ['usa', 'usa', 'germany', 'germany', 'uk', 'japan']
 base_msrp = [26900, 55900, 69150, 113500, 61600, 55250]
 
