@@ -1,5 +1,7 @@
-mutants = ['charles xavier', 'bobby drake', 'kurt wagner', 'max eisenhardt', 'kitty pryde']
-powers = ['telepathy', 'thermokinesis', 'teleportation', 'magnetokinesis', 'intangibility']
+mutants = ['charles xavier', 'bobby drake',
+           'kurt wagner', 'max eisenhardt', 'kitty pryde']
+powers = ['telepathy', 'thermokinesis',
+          'teleportation', 'magnetokinesis', 'intangibility']
 
 # Create a zip object from mutants and powers: z1
 z1 = zip(mutants, powers)
@@ -16,3 +18,6 @@ result1, result2 = zip(*z1)
 # Check if unpacked tuples are equivalent to original tuples
 print(result1 == mutants)
 print(result2 == powers)
+
+print(result1)
+print(result2)
